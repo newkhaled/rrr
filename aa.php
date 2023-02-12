@@ -23,7 +23,7 @@ return new class extends Migration
             $table->bigInteger('amount')->nullable(false);
             $table->text('details')->nullable(false); 
         });
-    }
+    }hghhgdhfghfh
 
     /**
      * Reverse the migrations.
