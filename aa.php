@@ -7,8 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Run the migrations.
-     *
+     * Run the migratihhfhfhfg
      * @return void
      */
     public function up()
@@ -83,14 +82,14 @@ return new class extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * @return voidhfg
      */
     public function up()
     {
         Schema::create('transactions', function (Blueprint $table) {
-            $table->id();
+            $table->id();hfghfg
             $table->foreignId('transaction_type_id')->nullable(false)->references('id')->on('customers');
-            $table->foreignId('customer_id')->nullable(true)->references('id')->on('customers');
+            $table->foreignId('customer_idhfghfghfnullable(true)->references('id')->on('customers');
             $table->foreignId('project_id')->nullable(true)->references('id')->on('projects');
             $table->date('date')->nullable(false);
             $table->time('time')->nullable(false);
